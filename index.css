@@ -13,7 +13,7 @@ body {
 }
 
 section {
-  background-image: url("imgs/backgroundimage.jpeg");
+  background-image: url("images/backgroundimage.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 250px;
