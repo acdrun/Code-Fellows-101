@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  text-align: center;
+}
+
+/* beginning of the navigation portion */
+nav {
+  padding: 10px;
+  padding-bottom: 60px;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  font-size: 20px;
+}
+
+/* beginning of the content portion */
+.main {
+  margin: 20px;
+}
+
+.main img {
+  width: 20%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.main p {
+  text-align: left;
+}
+
+.form {
+  float: left;
+  position: relative;
+  padding: 15px;
+  background-color: lightblue;
+}
+
+/* beginning of header w/dog */
+.header {
+  overflow: hidden;
+  position: relative;
+  background: #5C97FF;
+}
+
+.header h1 {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  padding: 60px;
+  padding-bottom: 120px;
+  color: #fff;
+  font-size: 200px;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
